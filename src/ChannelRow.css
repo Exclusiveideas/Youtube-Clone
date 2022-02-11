@@ -1,0 +1,38 @@
+.channelRow {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    cursor: pointer;
+    height: 30%;
+}
+
+.channelRow__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow__text > p  {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRow__logo {
+    height: 90px !important;
+    width: 90px !important;
+    margin: 10px 60px;
+}
+
+.verified {
+    color: green;
+}
+
+.channelRow__text-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.channelRow__text > p {
+    font-size: 5px;
+}

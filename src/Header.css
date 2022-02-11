@@ -46,3 +46,11 @@
 .header__right_icons:hover {
     transform: scale(1.2);
 }
+
+.header__left-menu {
+    cursor: pointer;
+}
+
+.header__left-menu:hover {
+    transform: scale(1.1);
+}

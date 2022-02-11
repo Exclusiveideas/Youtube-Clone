@@ -1,0 +1,48 @@
+.videoCard {
+    width: 270px;
+    margin-bottom: 40px;
+}
+
+.videocard__thumbnail {
+    height: 140px;
+    width: 250px;
+}
+
+.videoCard__info {
+    display: flex;
+    padding-right: 30px;
+}
+
+.videoCard__text {
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.videoCard__text > h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+
+.videoCard__text > p {
+    font-size: 10px;
+    color: gray;
+}
+
+.videoCard__avatar {
+    width: 30px;
+    height: 30px;
+}
+.channel {
+    margin-top: -4px;
+}
+.views {
+    margin-top: -13px;
+}
+
+
+.videoCard__avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

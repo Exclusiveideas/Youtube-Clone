@@ -1,0 +1,46 @@
+.searchPage {
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 20px 20px 0px 20px;
+    height: 82vh;
+    overflow-y: scroll;
+}
+
+.searchPage__filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+    cursor: pointer;
+}
+
+.searchPage__filter-container {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.searchPage__filter-container > hr {
+    width: 100px;
+    border: 0.3px solid grey;
+}
+
+.searchPage__filter-Parentcontainer {
+    display: flex;
+}
+
+.searchPage__filter-container > p {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.searchPage__filter > h2 {
+    margin-left: 10px;
+}
+
+.searchPage > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
